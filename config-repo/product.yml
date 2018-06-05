@@ -1,1 +1,13 @@
 hello: world1
+
+history:
+  #获取供需关系
+  supply-demand-url: http://10.252.45.252:8080/market_statistics
+  #获取车300、厂家建议新车价、模型定价(初检)
+  estimate-price-url: http://10.252.45.252:8080/pegasus/pegasus/v2/init_pricing
+  #获取车300，公平价，模型定价、厂家建议新车价（复检）
+  estimate-price-recheck-url: http://10.252.45.252:8080/pegasus/pegasus/v2/recheck_pricing
+  #相似车接口获取车辆信息(历史成交记录history)
+  car-info-history-url: http://10.170.232.39:10086/similar_cars?mode=%d&on_sale=2
+  #相似车接口获取车辆信息(在架数据记录allModel)
+  car-info-model-url: http://10.170.232.39:10086/similar_cars?mode=%d&on_sale=1

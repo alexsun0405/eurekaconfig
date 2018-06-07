@@ -9,7 +9,3 @@ history:
   car-info-history-url: http://10.170.232.39:10086/similar_cars?mode=%d&on_sale=2
   #相似车接口获取车辆信息(在架数据记录allModel)
   car-info-model-url: http://10.170.232.39:10086/similar_cars?mode=%d&on_sale=1
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/

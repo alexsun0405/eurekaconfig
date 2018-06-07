@@ -1,5 +1,3 @@
-hello: world1
-
 history:
   #获取供需关系
   supply-demand-url: http://10.252.45.252:8080/market_statistics
